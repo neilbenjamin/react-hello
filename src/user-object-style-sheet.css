@@ -1,0 +1,8 @@
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%; /* Limit the image's width to its container */
+  height: auto; /* Let the browser maintain the aspect ratio */
+  margin-top: 2vh; /* Use vh for consistent vertical spacing */
+  margin-bottom: 2vh;
+}
