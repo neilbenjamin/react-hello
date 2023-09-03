@@ -1,3 +1,6 @@
+//This was an amazing project to learn. Lot's of guidance from VSC, Hyperion Node Material, React and OpenAI for updated 
+//Installation methods and terminal commands. This was really amazing to learn. Wow.
+
 import React from 'react';
 import logo from './frikkie.png';
 import Card from 'react-bootstrap/Card';
