@@ -9,7 +9,7 @@ import ShoppingCartComponent from './shoppingCart.js'
 import Accordion from 'react-bootstrap/Accordion';
 
 // User Object
-const userObject = {
+const user = {
   name: "Frikkie",
   surname: "Mayer",
   DOB: "07 February 1876",
@@ -28,16 +28,16 @@ function UserObjectComponent() {
           <Accordion.Header>CUSTOMER INFORMATION</Accordion.Header>
           <Accordion.Body>
             <Card>
-              <Card.Img className="centered-image" variant="top" src={userObject.image} alt="logo" />
+              <Card.Img className="centered-image" variant="top" src={user.image} alt="logo" />
               <Card.Body>
                 <Card.Text>
-                  <p>Name: {userObject.name}</p>
-                  <p>Surname: {userObject.surname}</p>
-                  <p>DOB: {userObject.DOB}</p>
-                  <p>Address: {userObject.Address}</p>
-                  <p>Email: {userObject.email}</p>
-                  <p>Telephone: {userObject.telephone}</p>
-                  <p>Company: {userObject.company}</p>
+                  <p>Name: {user.name}</p>
+                  <p>Surname: {user.surname}</p>
+                  <p>DOB: {user.DOB}</p>
+                  <p>Address: {user.Address}</p>
+                  <p>Email: {user.email}</p>
+                  <p>Telephone: {user.telephone}</p>
+                  <p>Company: {user.company}</p>
                   <ShoppingCartComponent />
                 </Card.Text>
               </Card.Body>
